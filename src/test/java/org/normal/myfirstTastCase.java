@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.pom.base.BaseTest;
+import org.pom.pages.HomePage;
+import org.pom.pages.StorePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,7 +15,8 @@ public class myfirstTastCase extends BaseTest {
     @Test
     public void guestCheckoutusingDirectBanktranfer() throws InterruptedException{
         driver.get("https://askomdch.com");
-        driver.findElement(By.xpath("//li[@id='menu-item-1227']//a[@class='menu-link'][normalize-space()='Store']")).click();
+        HomePage homePage = new HomePage(driver);
+        StorePage storePage = homePage.clickStoreMenuLink();
         Thread.sleep(5000);
         driver.findElement(By.xpath("//input[@id='woocommerce-product-search-field-0']")).sendKeys("blue");
         driver.findElement(By.cssSelector("button[value='Search']")).click();
