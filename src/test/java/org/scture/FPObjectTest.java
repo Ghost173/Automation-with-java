@@ -1,12 +1,11 @@
 package org.scture;
 
-import org.openqa.selenium.By;
 import org.pom.base.BaseTest;
 import org.pom.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCase  extends BaseTest {
+public class FPObjectTest extends BaseTest {
 
     @Test
     public void guestCheckoutusingDirectBanktranfer() throws InterruptedException{

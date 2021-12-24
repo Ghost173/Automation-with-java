@@ -17,4 +17,9 @@ public class HomePage extends BasePage {
         return new StorePage(driver);
     }
 
+    public HomePage load () {
+        load("/");
+        return this;
+    }
+
 }
