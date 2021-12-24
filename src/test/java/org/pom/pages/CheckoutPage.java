@@ -2,7 +2,16 @@ package org.pom.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pom.base.BasePage;
+import org.pom.objects.BillingAddress;
+
+import java.time.Duration;
+import java.util.List;
 
 public class CheckoutPage extends BasePage {
 
@@ -15,6 +24,11 @@ public class CheckoutPage extends BasePage {
     private final By enterPhoneNumber = By.id("billing_phone");
     private final By enterEmailAddress = By.id("billing_email");
     private final By clickPlaceOrderBtn = By.id("place_order");
+    private final By countryDropdown = By.id("billing_country");
+    private final By slsetState = By.id("billing_state");
+    private final By slectdirectbanktrfr = By.id("payment_method_cod");
+
+    private final By overlay = By.cssSelector(".blockUI.blockOverlay");
 
 
     private final By clickhereTologinBtn = By.xpath("//a[normalize-space()='Click here to login']");
@@ -25,6 +39,19 @@ public class CheckoutPage extends BasePage {
 
     public CheckoutPage(WebDriver driver) {
         super(driver);
+    }
+
+
+    public CheckoutPage selectCountry (String contryName) {
+        Select select = new Select(driver.findElement(countryDropdown));
+        select.selectByVisibleText(contryName);
+        return this;
+    }
+
+    public CheckoutPage seletState (String state) {
+        Select select = new Select(driver.findElement(slsetState));
+        select.selectByVisibleText(state);
+        return this;
     }
 
     public CheckoutPage clickhereTologinBtn() {
@@ -96,9 +123,33 @@ public class CheckoutPage extends BasePage {
     }
 
     public OrderConfirmPage ClickprocesstoCheckoutBtn() {
+       List<WebElement> overlays = driver.findElements(overlay);
+       if (overlays.size() > 0) {
+           new WebDriverWait(driver, Duration.ofSeconds(15)).until(
+                   ExpectedConditions.invisibilityOfAllElements(overlays)
+           );
+       }
         driver.findElement(clickPlaceOrderBtn).click();
         return new OrderConfirmPage(driver);
     }
 
+
+    public CheckoutPage setBillingAddress (BillingAddress billingAddress) {
+      return  enterFristnameInFld(billingAddress.getFirstName())
+                .enterLastNameininFld(billingAddress.getLastName())
+                .enterCompanyNameiNfld(billingAddress.getCompanytName())
+                .enterBllingaddLineone(billingAddress.getAddressLineone())
+                .enterTownInfld(billingAddress.getTown())
+                .enterPosteCodeinFld(billingAddress.getPostCode())
+                .enterPhoneInFld(billingAddress.getPhone())
+                .enterEmailInfld(billingAddress.getEmail());
+    }
+
+
+    public CheckoutPage slectdirectbanktrfr() {
+//        WebElement e = wait.until(ExpectedConditions.elementToBeClickable(slectdirectbanktrfr));
+        driver.findElement(slectdirectbanktrfr).click();
+        return this;
+    }
 
 }
