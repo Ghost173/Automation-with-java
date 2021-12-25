@@ -12,8 +12,15 @@ public class StorePage extends BasePage {
     private final By addToCartBtn = By.cssSelector("a[aria-label='Add “Blue Shoes” to your cart']");
     private final By clickViewCartLable = By.cssSelector("a[title='View cart']");
 
+    private  final By storePagetitle = By.cssSelector(".woocommerce-products-header__title.page-title");
+
     public StorePage(WebDriver driver) {
         super(driver);
+    }
+
+
+    public String storePagetitle () {
+        return driver.findElement(storePagetitle).getText();
     }
 
     public StorePage enterTextInSearchFld (String txt) {
@@ -38,5 +45,11 @@ public class StorePage extends BasePage {
     public CartPage clickViewcartLbl() {
         driver.findElement(clickViewCartLable).click();
         return new CartPage(driver);
+    }
+
+
+    public StorePage load () {
+        load("/store");
+        return this;
     }
 }
