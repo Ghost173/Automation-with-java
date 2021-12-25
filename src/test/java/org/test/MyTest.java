@@ -25,7 +25,7 @@ public class MyTest extends BaseTest {
                 seletState("California").
                 enterPosteCodeinFld("00600").
                 enterPhoneInFld("1234598765").
-                //enterEmailInfld("ghost173@mail.com").
+                enterEmailInfld("ghost173@mail.com").
                 slectdirectbanktrfr();
         OrderConfirmPage orderConfrimPage = checkoutPage.ClickprocesstoCheckoutBtn();
         Assert.assertEquals(orderConfrimPage.getOrderConfirmSuccessMgs(), "Thank you. Your order has been received.");

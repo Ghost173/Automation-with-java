@@ -25,8 +25,9 @@ public class Synchronization extends BaseTest {
                 seletState("California").
                 enterPosteCodeinFld("00600").
                 enterPhoneInFld("1234598765").
-                enterEmailInfld("ghost173@mail.com").
-                slectdirectbanktrfr();
+                enterEmailInfld("ghost173@mail.com");
+                Thread.sleep(5000);
+                checkoutPage.slectdirectbanktrfr();
 
         OrderConfirmPage orderConfrimPage = checkoutPage.ClickprocesstoCheckoutBtn();
         Assert.assertEquals(orderConfrimPage.getOrderConfirmSuccessMgs(), "Thank you. Your order has been received.");

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite1">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="org.test.MyTest" class="method navigator-link" hash-for-method="guestCheckoutusingDirectBanktranfer">guestCheckoutusingDirectBanktranfer</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1" title="org.scture.Synchronization" class="method navigator-link" hash-for-method="guestCheckoutusingDirectBanktranfer">guestCheckoutusingDirectBanktranfer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite1 -->
@@ -119,11 +119,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite1" title="org.scture.FPObjectTest" class="method navigator-link" hash-for-method="guestCheckoutusingDirectBanktranfer">guestCheckoutusingDirectBanktranfer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="org.scture.Synchronization" class="method navigator-link" hash-for-method="guestCheckoutusingDirectBanktranfer">guestCheckoutusingDirectBanktranfer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -151,7 +146,7 @@
           <div class="suite-Suite1-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">org.test.MyTest</span>
+              <span class="class-name">org.scture.Synchronization</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -159,15 +154,16 @@
                   <a name="guestCheckoutusingDirectBanktranfer">
                   </a> <!-- guestCheckoutusingDirectBanktranfer -->
                   <span class="method-name">guestCheckoutusingDirectBanktranfer</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received&quot;}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
 System info: host: &apos;ghost&apos;, ip: &apos;192.168.8.187&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.13.0-22-generic&apos;, java.version: &apos;11.0.13&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f2b47158ebfa114b9a4822a0143b60ca, findElement {using=css selector, value=.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.kr5fN6}, goog:chromeOptions: {debuggerAddress: localhost:33331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33331/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f2b47158ebfa114b9a4822a0143b60ca
+Command: [2da49a59e1c84acc8c03e68daf9d8083, clickElement {id=9e724bee-558a-4356-9722-a812d2786d98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.shUwew}, goog:chromeOptions: {debuggerAddress: localhost:34983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34983/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (2da49a59e1c84acc8c03e68daf9d8083)] -&gt; id: payment_method_cod]
+Session ID: 2da49a59e1c84acc8c03e68daf9d8083
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -175,12 +171,10 @@ Session ID: f2b47158ebfa114b9a4822a0143b60ca
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.pom.pages.OrderConfirmPage.getOrderConfirmSuccessMgs(OrderConfirmPage.java:16)
-	at org.test.MyTest.guestCheckoutusingDirectBanktranfer(MyTest.java:31)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.pom.pages.CheckoutPage.slectdirectbanktrfr(CheckoutPage.java:151)
+	at org.scture.Synchronization.guestCheckoutusingDirectBanktranfer(Synchronization.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
@@ -191,16 +185,9 @@ Session ID: f2b47158ebfa114b9a4822a0143b60ca
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.scture.FPObjectTest</span>
+              <span class="class-name">org.scture.Synchronization</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="guestCheckoutusingDirectBanktranfer">
-                  </a> <!-- guestCheckoutusingDirectBanktranfer -->
-                  <span class="method-name">guestCheckoutusingDirectBanktranfer</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="loginCheckoutUsingDirectBankTranfer">
@@ -213,7 +200,7 @@ Session ID: f2b47158ebfa114b9a4822a0143b60ca
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.scture.Synchronization</span>
+              <span class="class-name">org.scture.FPObjectTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -244,7 +231,6 @@ Session ID: f2b47158ebfa114b9a4822a0143b60ca
 &lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression1&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.test.MyTest&quot;/&gt;
       &lt;class name=&quot;org.scture.Synchronization&quot;/&gt;
       &lt;class name=&quot;org.scture.FPObjectTest&quot;/&gt;
     &lt;/classes&gt;
@@ -260,7 +246,7 @@ Session ID: f2b47158ebfa114b9a4822a0143b60ca
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression1 (3 classes)</span>
+                <span class="test-name">Regression1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -286,27 +272,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginCheckoutUsingDirectBankTranfer')
 data.setCell(0, 2, 'org.scture.FPObjectTest')
-data.setCell(0, 3, 51047);
+data.setCell(0, 3, 54707);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'guestCheckoutusingDirectBanktranfer')
 data.setCell(1, 2, 'org.scture.FPObjectTest')
-data.setCell(1, 3, 39737);
+data.setCell(1, 3, 43398);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'guestCheckoutusingDirectBanktranfer')
-data.setCell(2, 2, 'org.test.MyTest')
-data.setCell(2, 3, 27095);
+data.setCell(2, 1, 'loginCheckoutUsingDirectBankTranfer')
+data.setCell(2, 2, 'org.scture.Synchronization')
+data.setCell(2, 3, 30321);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'guestCheckoutusingDirectBanktranfer')
 data.setCell(3, 2, 'org.scture.Synchronization')
-data.setCell(3, 3, 24221);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginCheckoutUsingDirectBankTranfer')
-data.setCell(4, 2, 'org.scture.Synchronization')
-data.setCell(4, 3, 11230);
+data.setCell(3, 3, 15623);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
@@ -337,7 +319,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.test.MyTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.scture.Synchronization</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">startDriver</span>
                 <span class="method-start">0 ms</span>
@@ -346,65 +328,50 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">guestCheckoutusingDirectBanktranfer</span>
-                <span class="method-start">3757 ms</span>
+                <span class="method-start">4692 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">30864 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.scture.Synchronization</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">startDriver</span>
-                <span class="method-start">31095 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">guestCheckoutusingDirectBanktranfer</span>
-                <span class="method-start">31721 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">55943 ms</span>
+                <span class="method-name">quitDriver([TestResult name=guestCheckoutusingDirectBanktranfer status=FAILURE method=Synchronization.guestChec...)</span>
+                <span class="method-start">20384 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startDriver</span>
-                <span class="method-start">56165 ms</span>
+                <span class="method-start">20621 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginCheckoutUsingDirectBankTranfer</span>
-                <span class="method-start">56668 ms</span>
+                <span class="method-start">20939 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">67898 ms</span>
+                <span class="method-name">quitDriver([TestResult name=loginCheckoutUsingDirectBankTranfer status=SUCCESS method=Synchronization.loginChec...)</span>
+                <span class="method-start">51260 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.scture.FPObjectTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">startDriver</span>
-                <span class="method-start">68018 ms</span>
+                <span class="method-start">51490 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">guestCheckoutusingDirectBanktranfer</span>
-                <span class="method-start">68470 ms</span>
+                <span class="method-start">51947 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">108207 ms</span>
+                <span class="method-name">quitDriver([TestResult name=guestCheckoutusingDirectBanktranfer status=SUCCESS method=FPObjectTest.guestCheckou...)</span>
+                <span class="method-start">95345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startDriver</span>
-                <span class="method-start">108481 ms</span>
+                <span class="method-start">95418 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginCheckoutUsingDirectBankTranfer</span>
-                <span class="method-start">108970 ms</span>
+                <span class="method-start">95718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">160017 ms</span>
+                <span class="method-name">quitDriver([TestResult name=loginCheckoutUsingDirectBankTranfer status=SUCCESS method=FPObjectTest.loginCheckou...)</span>
+                <span class="method-start">150425 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

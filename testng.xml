@@ -7,7 +7,7 @@
 <!--        </packages>-->
 
         <classes>
-            <class name="org.test.MyTest" />
+
             <class name="org.scture.Synchronization" />
             <class name="org.scture.FPObjectTest" />
         </classes>

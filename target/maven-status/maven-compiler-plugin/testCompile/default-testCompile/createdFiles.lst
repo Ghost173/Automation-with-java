@@ -1,9 +1,12 @@
 org/test/MyTest.class
+org/refactor/LoginTest.class
 org/pom/pages/CheckoutPage.class
 org/pom/base/BasePage.class
 org/scture/Pagefactory.class
+org/refactor/NavigationTest.class
 org/scture/Synchronization.class
 org/normal/myfirstTastCase.class
+org/refactor/AddToCartTest.class
 org/pom/pages/StorePage.class
 org/pom/pages/HomePage.class
 org/scture/FPObjectTest.class
@@ -11,5 +14,6 @@ org/pom/factory/DriverManager.class
 org/pom/pages/CartPage.class
 org/scture/TestCase.class
 org/pom/pages/OrderConfirmPage.class
+org/refactor/SearchTest.class
 org/pom/objects/BillingAddress.class
 org/pom/base/BaseTest.class

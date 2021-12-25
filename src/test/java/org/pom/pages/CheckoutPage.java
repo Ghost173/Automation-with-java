@@ -27,7 +27,6 @@ public class CheckoutPage extends BasePage {
     private final By countryDropdown = By.id("billing_country");
     private final By slsetState = By.id("billing_state");
     private final By slectdirectbanktrfr = By.id("payment_method_cod");
-
     private final By overlay = By.cssSelector(".blockUI.blockOverlay");
 
 
@@ -147,7 +146,6 @@ public class CheckoutPage extends BasePage {
 
 
     public CheckoutPage slectdirectbanktrfr() {
-//        WebElement e = wait.until(ExpectedConditions.elementToBeClickable(slectdirectbanktrfr));
         driver.findElement(slectdirectbanktrfr).click();
         return this;
     }
