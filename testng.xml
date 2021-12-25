@@ -7,11 +7,9 @@
 <!--        </packages>-->
 
         <classes>
-            <class name="org.scture.Pagefactory" />
+
             <class name="org.scture.Synchronization" />
             <class name="org.scture.FPObjectTest" />
-            <class name="org.scture.TestCase" />
-            <class name="org.test.MyTest" />
         </classes>
 
     </test>
