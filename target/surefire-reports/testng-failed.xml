@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Regression1(failed)" verbose="0">
     <classes>
-      <class name="org.test.MyTest">
+      <class name="org.scture.Synchronization">
         <methods>
-          <include name="guestCheckoutusingDirectBanktranfer"/>
           <include name="quitDriver"/>
           <include name="startDriver"/>
+          <include name="guestCheckoutusingDirectBanktranfer"/>
         </methods>
-      </class> <!-- org.test.MyTest -->
+      </class> <!-- org.scture.Synchronization -->
     </classes>
   </test> <!-- Regression1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

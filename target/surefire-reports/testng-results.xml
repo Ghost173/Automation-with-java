@@ -1,91 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-25T16:57:02 IST" name="Suite1" finished-at="2021-12-25T16:59:42 IST" duration-ms="160332">
+  <suite started-at="2021-12-25T21:48:27 IST" name="Suite1" finished-at="2021-12-25T21:50:57 IST" duration-ms="150528">
     <groups>
     </groups>
-    <test started-at="2021-12-25T16:57:02 IST" name="Regression1" finished-at="2021-12-25T16:59:42 IST" duration-ms="160332">
-      <class name="org.scture.FPObjectTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.FPObjectTest@2928854b]" started-at="2021-12-25T16:58:10 IST" name="startDriver" finished-at="2021-12-25T16:58:10 IST" duration-ms="452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.scture.FPObjectTest@2928854b]" started-at="2021-12-25T16:58:10 IST" name="guestCheckoutusingDirectBanktranfer" finished-at="2021-12-25T16:58:50 IST" duration-ms="39737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestCheckoutusingDirectBanktranfer -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.scture.FPObjectTest@2928854b]" started-at="2021-12-25T16:58:50 IST" name="quitDriver" finished-at="2021-12-25T16:58:50 IST" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.FPObjectTest@2928854b]" started-at="2021-12-25T16:58:50 IST" name="startDriver" finished-at="2021-12-25T16:58:51 IST" duration-ms="489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="loginCheckoutUsingDirectBankTranfer()[pri:0, instance:org.scture.FPObjectTest@2928854b]" started-at="2021-12-25T16:58:51 IST" name="loginCheckoutUsingDirectBankTranfer" finished-at="2021-12-25T16:59:42 IST" duration-ms="51047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCheckoutUsingDirectBankTranfer -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.scture.FPObjectTest@2928854b]" started-at="2021-12-25T16:59:42 IST" name="quitDriver" finished-at="2021-12-25T16:59:42 IST" duration-ms="275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- org.scture.FPObjectTest -->
+    <test started-at="2021-12-25T21:48:27 IST" name="Regression1" finished-at="2021-12-25T21:50:57 IST" duration-ms="150528">
       <class name="org.scture.Synchronization">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.Synchronization@79efed2d]" started-at="2021-12-25T16:57:33 IST" name="startDriver" finished-at="2021-12-25T16:57:33 IST" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.Synchronization@501edcf1]" started-at="2021-12-25T21:48:27 IST" name="startDriver" finished-at="2021-12-25T21:48:31 IST" duration-ms="4691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.scture.Synchronization@79efed2d]" started-at="2021-12-25T16:57:33 IST" name="guestCheckoutusingDirectBanktranfer" finished-at="2021-12-25T16:57:58 IST" duration-ms="24221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestCheckoutusingDirectBanktranfer -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.scture.Synchronization@79efed2d]" started-at="2021-12-25T16:57:58 IST" name="quitDriver" finished-at="2021-12-25T16:57:58 IST" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.Synchronization@79efed2d]" started-at="2021-12-25T16:57:58 IST" name="startDriver" finished-at="2021-12-25T16:57:58 IST" duration-ms="503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="loginCheckoutUsingDirectBankTranfer()[pri:0, instance:org.scture.Synchronization@79efed2d]" started-at="2021-12-25T16:57:58 IST" name="loginCheckoutUsingDirectBankTranfer" finished-at="2021-12-25T16:58:09 IST" duration-ms="11230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCheckoutUsingDirectBankTranfer -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.scture.Synchronization@79efed2d]" started-at="2021-12-25T16:58:09 IST" name="quitDriver" finished-at="2021-12-25T16:58:10 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- org.scture.Synchronization -->
-      <class name="org.test.MyTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.test.MyTest@4b44655e]" started-at="2021-12-25T16:57:02 IST" name="startDriver" finished-at="2021-12-25T16:57:05 IST" duration-ms="3754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.test.MyTest@4b44655e]" started-at="2021-12-25T16:57:05 IST" name="guestCheckoutusingDirectBanktranfer" finished-at="2021-12-25T16:57:32 IST" duration-ms="27095" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.scture.Synchronization@501edcf1]" started-at="2021-12-25T21:48:31 IST" name="guestCheckoutusingDirectBanktranfer" finished-at="2021-12-25T21:48:47 IST" duration-ms="15623" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'ghost', ip: '192.168.8.187', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-22-generic', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f2b47158ebfa114b9a4822a0143b60ca, findElement {using=css selector, value=.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.kr5fN6}, goog:chromeOptions: {debuggerAddress: localhost:33331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33331/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f2b47158ebfa114b9a4822a0143b60ca]]>
+Command: [2da49a59e1c84acc8c03e68daf9d8083, clickElement {id=9e724bee-558a-4356-9722-a812d2786d98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.shUwew}, goog:chromeOptions: {debuggerAddress: localhost:34983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34983/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (2da49a59e1c84acc8c03e68daf9d8083)] -> id: payment_method_cod]
+Session ID: 2da49a59e1c84acc8c03e68daf9d8083]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'ghost', ip: '192.168.8.187', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-22-generic', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f2b47158ebfa114b9a4822a0143b60ca, findElement {using=css selector, value=.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.kr5fN6}, goog:chromeOptions: {debuggerAddress: localhost:33331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33331/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f2b47158ebfa114b9a4822a0143b60ca
+Command: [2da49a59e1c84acc8c03e68daf9d8083, clickElement {id=9e724bee-558a-4356-9722-a812d2786d98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.shUwew}, goog:chromeOptions: {debuggerAddress: localhost:34983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34983/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (2da49a59e1c84acc8c03e68daf9d8083)] -> id: payment_method_cod]
+Session ID: 2da49a59e1c84acc8c03e68daf9d8083
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,12 +47,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at org.pom.pages.OrderConfirmPage.getOrderConfirmSuccessMgs(OrderConfirmPage.java:16)
-at org.test.MyTest.guestCheckoutusingDirectBanktranfer(MyTest.java:31)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at org.pom.pages.CheckoutPage.slectdirectbanktrfr(CheckoutPage.java:151)
+at org.scture.Synchronization.guestCheckoutusingDirectBanktranfer(Synchronization.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,15 +85,81 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guestCheckoutusingDirectBanktranfer -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.test.MyTest@4b44655e]" started-at="2021-12-25T16:57:32 IST" name="quitDriver" finished-at="2021-12-25T16:57:33 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:org.scture.Synchronization@501edcf1]" started-at="2021-12-25T21:48:47 IST" name="quitDriver" finished-at="2021-12-25T21:48:47 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=guestCheckoutusingDirectBanktranfer status=FAILURE method=Synchronization.guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.scture.Synchronization@501edcf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- org.test.MyTest -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.Synchronization@501edcf1]" started-at="2021-12-25T21:48:47 IST" name="startDriver" finished-at="2021-12-25T21:48:48 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginCheckoutUsingDirectBankTranfer()[pri:0, instance:org.scture.Synchronization@501edcf1]" started-at="2021-12-25T21:48:48 IST" name="loginCheckoutUsingDirectBankTranfer" finished-at="2021-12-25T21:49:18 IST" duration-ms="30321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckoutUsingDirectBankTranfer -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:org.scture.Synchronization@501edcf1]" started-at="2021-12-25T21:49:18 IST" name="quitDriver" finished-at="2021-12-25T21:49:18 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginCheckoutUsingDirectBankTranfer status=SUCCESS method=Synchronization.loginCheckoutUsingDirectBankTranfer()[pri:0, instance:org.scture.Synchronization@501edcf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.scture.Synchronization -->
+      <class name="org.scture.FPObjectTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.FPObjectTest@4278a03f]" started-at="2021-12-25T21:49:18 IST" name="startDriver" finished-at="2021-12-25T21:49:19 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.scture.FPObjectTest@4278a03f]" started-at="2021-12-25T21:49:19 IST" name="guestCheckoutusingDirectBanktranfer" finished-at="2021-12-25T21:50:02 IST" duration-ms="43398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckoutusingDirectBanktranfer -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:org.scture.FPObjectTest@4278a03f]" started-at="2021-12-25T21:50:02 IST" name="quitDriver" finished-at="2021-12-25T21:50:02 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=guestCheckoutusingDirectBanktranfer status=SUCCESS method=FPObjectTest.guestCheckoutusingDirectBanktranfer()[pri:0, instance:org.scture.FPObjectTest@4278a03f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:org.scture.FPObjectTest@4278a03f]" started-at="2021-12-25T21:50:02 IST" name="startDriver" finished-at="2021-12-25T21:50:02 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginCheckoutUsingDirectBankTranfer()[pri:0, instance:org.scture.FPObjectTest@4278a03f]" started-at="2021-12-25T21:50:02 IST" name="loginCheckoutUsingDirectBankTranfer" finished-at="2021-12-25T21:50:57 IST" duration-ms="54707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheckoutUsingDirectBankTranfer -->
+        <test-method is-config="true" signature="quitDriver(org.testng.ITestResult)[pri:0, instance:org.scture.FPObjectTest@4278a03f]" started-at="2021-12-25T21:50:57 IST" name="quitDriver" finished-at="2021-12-25T21:50:57 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginCheckoutUsingDirectBankTranfer status=SUCCESS method=FPObjectTest.loginCheckoutUsingDirectBankTranfer()[pri:0, instance:org.scture.FPObjectTest@4278a03f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.scture.FPObjectTest -->
     </test> <!-- Regression1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

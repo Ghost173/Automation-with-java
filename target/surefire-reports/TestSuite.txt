@@ -1,17 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 160.837 s <<< FAILURE! - in TestSuite
-org.test.MyTest.guestCheckoutusingDirectBanktranfer  Time elapsed: 27.034 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 150.856 s <<< FAILURE! - in TestSuite
+org.scture.Synchronization.guestCheckoutusingDirectBanktranfer  Time elapsed: 15.653 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'ghost', ip: '192.168.8.187', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-22-generic', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f2b47158ebfa114b9a4822a0143b60ca, findElement {using=css selector, value=.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.kr5fN6}, goog:chromeOptions: {debuggerAddress: localhost:33331}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33331/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f2b47158ebfa114b9a4822a0143b60ca
-	at org.test.MyTest.guestCheckoutusingDirectBanktranfer(MyTest.java:31)
+Command: [2da49a59e1c84acc8c03e68daf9d8083, clickElement {id=9e724bee-558a-4356-9722-a812d2786d98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.shUwew}, goog:chromeOptions: {debuggerAddress: localhost:34983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34983/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (2da49a59e1c84acc8c03e68daf9d8083)] -> id: payment_method_cod]
+Session ID: 2da49a59e1c84acc8c03e68daf9d8083
+	at org.scture.Synchronization.guestCheckoutusingDirectBanktranfer(Synchronization.java:29)
 
